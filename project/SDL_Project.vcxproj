@@ -218,7 +218,6 @@ xcopy "$(ProjectDir)..\assets" "$(OutDir)\assets" /Y  /E /C /I</Command>
     <ClInclude Include="..\src\Character\character.h" />
     <ClInclude Include="..\src\Game\game.h" />
     <ClInclude Include="..\src\Render\render.h" />
-    <ClInclude Include="..\src\SDL_Project.h" />
     <ClInclude Include="input.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
