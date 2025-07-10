@@ -1,22 +1,11 @@
 #include <iostream>
-#include <SDL.h>
-#include <SDL_image.h>
-#include <SDL_ttf.h>
+#include "globals.h"
 #include "Game/game.h"
-
 
 using namespace std;
 
-
-int main(int argc, char* argv[])
+int SDL_main(int argc, char* argv[])
 {
-	runGame();
-	return 0;
+    runGame();
+    return 0;
 }
-
-
-
-
-
-
-	
