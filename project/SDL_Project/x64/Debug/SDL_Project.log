@@ -1,51 +1,12 @@
-﻿  game.cpp
-C:\Users\Casto\source\repos\Pong\src\Game\game.cpp(111,33): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Casto\source\repos\Pong\src\Game\game.cpp(259,50): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-  SDL_Project.vcxproj -> C:\Users\Casto\source\repos\Pong\project\x64\Debug\SDL_Project.exe
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_image\lib\x64\libjpeg-9.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_image\lib\x64\libpng16-16.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_image\lib\x64\libtiff-5.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_image\lib\x64\libwebp-7.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_image\lib\x64\SDL2_image.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_image\lib\x64\zlib1.dll
-  6 archivo(s) copiado(s)
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_ttf\lib\x64\SDL2_ttf.dll
-  1 archivo(s) copiado(s)
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2\lib\x64\SDL2.dll
-  1 archivo(s) copiado(s)
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libFLAC-8.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libmodplug-1.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libmpg123-0.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libogg-0.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libopus-0.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libopusfile-0.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libvorbis-0.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\libvorbisfile-3.dll
-  C:\Users\Casto\source\repos\Pong\project\..\libs\SDL2_mixer\lib\x64\SDL2_mixer.dll
-  9 archivo(s) copiado(s)
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\littleidea.mp3
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA1.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA10.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA11.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA12.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA2.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA3.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA4.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA5.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA6.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA7.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA8.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\SONIDOAGUA9.wav
-  C:\Users\Casto\source\repos\Pong\project\..\assets\audio\Submerged.ogg
-  C:\Users\Casto\source\repos\Pong\project\..\assets\fonts\team401.ttf
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\Derrota.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\Empate.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\gameplay.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\IA_Squid.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\IA_Squid_Habilidad.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\menu.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\Player_Squid.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\puffer_Hit.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\Puffer_Normal.png
-  C:\Users\Casto\source\repos\Pong\project\..\assets\img\Victoria.png
-  25 archivo(s) copiado(s)
+﻿  SDL_Project.cpp
+  game.cpp
+C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(221,17): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(221,38): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(256,88): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(289,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(290,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  render.cpp
+C:\Users\Casto\source\repos\CharacterSelect\src\Render\render.cpp(60,15): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+  input.cpp
+  Generando código...
+  SDL_Project.vcxproj -> C:\Users\Casto\source\repos\CharacterSelect\project\x64\Debug\SDL_Project.exe

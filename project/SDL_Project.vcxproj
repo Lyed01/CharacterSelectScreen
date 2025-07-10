@@ -161,11 +161,13 @@ xcopy "$(ProjectDir)..\assets" "$(OutDir)\assets" /Y  /E /C /I</Command>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Casto\source\repos\Pong\libs\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Casto\source\repos\Pong\libs\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <CustomBuildStep>
       <RootFolder>
@@ -174,17 +176,7 @@ xcopy "$(ProjectDir)..\assets" "$(OutDir)\assets" /Y  /E /C /I</Command>
       </Command>
     </CustomBuildStep>
     <PostBuildEvent>
-      <Command>xcopy "$(ProjectDir)..\libs\SDL2_image\lib\$(PlatformTarget)\*.dll" "$(ProjectDir)$(PlatformTarget)\$(Configuration)" /Y
-
-
-xcopy "$(ProjectDir)..\libs\SDL2_ttf\lib\$(PlatformTarget)\*.dll" "$(ProjectDir)$(PlatformTarget)\$(Configuration)" /Y
-
-xcopy "$(ProjectDir)..\libs\SDL2\lib\$(PlatformTarget)\*.dll" "$(ProjectDir)$(PlatformTarget)\$(Configuration)" /Y
-
-xcopy "$(ProjectDir)..\libs\SDL2_mixer\lib\$(PlatformTarget)\*.dll" "$(ProjectDir)$(PlatformTarget)\$(Configuration)" /Y
-
-
-xcopy "$(ProjectDir)..\assets" "$(OutDir)\assets" /Y  /E /C /I</Command>
+      <Command>if not exist "$(TargetDir)assets" mkdir "$(TargetDir)assets"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -219,19 +211,15 @@ xcopy "$(ProjectDir)..\assets" "$(OutDir)\assets" /Y  /E /C /I</Command>
   <ItemGroup>
     <ClCompile Include="../src/SDL_Project.cpp" />
     <ClCompile Include="..\src\Game\game.cpp" />
-    <ClCompile Include="..\src\Input\input.cpp" />
     <ClCompile Include="..\src\Render\render.cpp" />
+    <ClCompile Include="input.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\Ball\ball.h" />
+    <ClInclude Include="..\src\Character\character.h" />
     <ClInclude Include="..\src\Game\game.h" />
-    <ClInclude Include="..\src\Input\input.h" />
-    <ClInclude Include="..\src\Player\player.h" />
     <ClInclude Include="..\src\Render\render.h" />
     <ClInclude Include="..\src\SDL_Project.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\src\Globals.h" />
+    <ClInclude Include="input.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

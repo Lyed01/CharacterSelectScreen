@@ -1,12 +1,12 @@
-//Declara funciones para inicializar y manejar la entrada del usuario (teclado, eventos SDL).
+#include <SDL.h>
 
-#ifndef INPUT_H
-#define INPUT_H
+struct InputState {
+    bool up = false;
+    bool down = false;
+    bool left = false;
+    bool right = false;
+    bool select = false;
+    bool quit = false;
+};
 
-
-void onKeyUp(int keyCode);
-void onKeyDown(int keyCode);
-void processInput();
-void movement(float deltaTime);
-
-#endif // INPUT_H
+void processInput(InputState& input);

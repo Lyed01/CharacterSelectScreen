@@ -1,19 +1,19 @@
-//Declara funciones para cargar imágenes, dibujar texturas en pantalla, limpiar y actualizar el renderizador.
-
 #pragma once
-#include "render.h"
-#include "../globals.h"
-#include <SDL_ttf.h>
 #include <SDL.h>
-#include <SDL_image.h>
-#include <string>
+#include <SDL_ttf.h>
+#include <vector>
+#include "../Character/character.h"
 
-using namespace std;
+struct GridConfig {
+    int columnas;
+    int startX, startY;
+    int cellWidth, cellHeight;
+};
 
-// Carga una imagen y devuelve la textura SDL correspondiente
-SDL_Texture* cargarLaImagen(string filename, SDL_Renderer* renderer);
-
-// Muestra la textura en las coordenadas (x, y)
-void mostrarLaImagen(SDL_Texture* texture, int x, int y, int w, int h, SDL_Renderer* renderer);
-
-void renderTexto(const string& texto, int x, int y, SDL_Color color, TTF_Font* fuente);
+void renderText(SDL_Renderer* ren, TTF_Font* font, int x, int y, const std::string& texto);
+void renderCharactersGrid(SDL_Renderer* ren, TTF_Font* font, TTF_Font* font2,
+    const std::vector<Character>& personajes, int seleccionado,
+    const GridConfig& grid, int offsetFila, int offsetCol,
+    int ventanaAlto, int ventanaAncho,
+    float highlightX, float highlightY);
+void renderCharacterDetails(SDL_Renderer* ren, TTF_Font* font, TTF_Font* font2, const Character& personaje);
