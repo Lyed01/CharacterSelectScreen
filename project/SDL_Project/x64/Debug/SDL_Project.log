@@ -1,12 +1,7 @@
-﻿  SDL_Project.cpp
-  game.cpp
+﻿  game.cpp
 C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(221,17): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(221,38): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(256,88): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
 C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(289,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
 C:\Users\Casto\source\repos\CharacterSelect\src\Game\game.cpp(290,20): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
-  render.cpp
-C:\Users\Casto\source\repos\CharacterSelect\src\Render\render.cpp(60,15): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
-  input.cpp
-  Generando código...
   SDL_Project.vcxproj -> C:\Users\Casto\source\repos\CharacterSelect\project\x64\Debug\SDL_Project.exe
