@@ -35,3 +35,33 @@ Funciona con teclado y muestra animaciones suaves para el cursor de selección.
 
 Cada línea define un personaje con campos separados por comas:
 
+    nombre,vida,fuerza,velocidad,"descripción opcional entre comillas",ruta_imagen
+    
+Ejemplo:
+
+    Mario,100,50,30,"El fontanero valiente",assets/img/mario.png
+
+## Estructura del código
+
+runGame(): Función principal que inicia SDL, carga recursos, maneja el loop principal y la lógica de selección.
+
+cargarPersonajes(): Lee el archivo CSV y genera un vector de personajes con sus atributos y texturas.
+
+actualizarSeleccion(): Controla el movimiento del cursor en el grid.
+
+iniciarSDL(), initAudio(): Inicializan SDL y el audio.
+
+limpiar(): Libera recursos usados.
+
+renderCharactersGrid(), renderCharacterDetails(): Funciones de renderizado (implementación separada).
+
+## Notas
+
+Asegúrate de tener los assets (imágenes, audio, fuentes) en las rutas correctas.
+
+El programa usa interpolación para animar el cursor, para mejor experiencia visual.
+
+Actualmente soporta teclado para navegar y seleccionar personajes.
+
+
+
