@@ -1,0 +1,19 @@
+Mario,100,25,15,"El fontanero mas famoso del mundo. Salta, corre y aplasta goombas.",assets/img/mario.png
+Link,120,30,18,"Heroe de Hyrule. Silencioso, valiente, y con una espada legendaria.",assets/img/link.png
+Samus,130,35,22,"Cazadora espacial con armadura avanzada y canon en el brazo.",assets/img/samus.png
+Lara Croft,110,28,20,"Arqueologa experta en combate, exploracion y sarcasmo.",assets/img/lara.png
+Kratos,200,50,10,"Dios de la guerra. Grita mucho, rompe cosas, y no tiene paciencia.",assets/img/kratos.png
+Master Chief,150,40,12,"Soldado espartano. Pocas palabras, muchas granadas.",assets/img/masterchief.png
+Solid Snake,100,26,14,"Espia legendario. Fuma demasiado, pero sabe esconderse.",assets/img/snake.png
+Pikachu,80,20,30,"El roedor electrico favorito de todos. Pika pika.",assets/img/pikachu.png
+Geralt,140,33,17,"El Lobo Blanco. Cazador de monstruos, bebedor de pociones y frases secas.",assets/img/geralt.png
+Zelda,90,20,18,"Princesa sabia, poderosa, y capaz de salvarse sola.",assets/img/zelda.png
+Doomguy,160,45,25,"Un tipo enojado que destruye demonios sin pestañear.",assets/img/doomguy.png
+Sonic,85,15,40,"Corre mas rapido que tus FPS. Azul, simpatico y letal.",assets/img/sonic.png
+Cloud,125,32,19,"Heroe con trauma, espada gigante y pelo imposible.",assets/img/cloud.png
+Sephiroth,150,48,16,"Un villano elegante con una sola ala y problemas maternos.",assets/img/sephiroth.png
+Ryu,110,29,18,"El maestro del Hadouken. Pelea por superarse, no por fama.",assets/img/ryu.png
+Scorpion,130,35,20,"¡Get over here! Ninjas, fuego y venganza eterna.",assets/img/scorpion.png
+Bayonetta,100,30,23,"Bruja elegante, sarcastica y con pistolas en los tacones.",assets/img/bayonetta.png
+Kirby,75,10,35,"Parece tierno... hasta que te traga y se convierte en vos.",assets/img/kirby.png
+Ezio,115,28,22,"Asesino renacentista con estilo, carisma y cuchillas ocultas.",assets/img/ezio.png
